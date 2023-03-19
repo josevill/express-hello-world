@@ -1,3 +1,3 @@
 #!/bin/bash
-source ~/.nvm/nvm.sh
+source /home/ubuntu/.nvm/nvm.sh
 nvm ls

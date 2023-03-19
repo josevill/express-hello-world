@@ -1,3 +1,3 @@
 #!/bin/bash
-. ~/.bashrc
+source ~/.bashrc
 nvm ls

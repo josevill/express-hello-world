@@ -2,4 +2,4 @@
 source ~/.nvm/nvm.sh
 cd /home/ubuntu/app
 npm i
-node index.js
+pm2 start index.js --name express

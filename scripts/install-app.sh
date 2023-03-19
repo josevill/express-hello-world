@@ -5,3 +5,4 @@ sudo chgrp -R ubuntu /home/ubuntu/app
 cd /home/ubuntu/app
 npm i
 pm2 start index.js --name express
+pm2 save

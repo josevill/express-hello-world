@@ -1,3 +1,3 @@
 #!/bin/bash
-source /home/ubuntu/.nvm/nvm.sh
-nvm ls
+source ~/.nvm/nvm.sh
+node --version

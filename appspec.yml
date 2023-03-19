@@ -4,6 +4,9 @@ files:
   - source: .
     destination: /home/ubuntu/app
 hooks:
+  BeforeInstall:
+    - location: scripts/remove-app.sh
+      runas: ubuntu
   AfterInstall:
     - location: scripts/install-app.sh
       runas: ubuntu

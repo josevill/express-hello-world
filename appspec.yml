@@ -5,5 +5,5 @@ files:
     destination: /home/ubuntu/app
 hooks:
   AfterInstall:
-    - location: scripts/install.sh
+    - location: scripts/install-app.sh
       runas: ubuntu

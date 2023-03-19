@@ -1,6 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/app
 source ~/.nvm/nvm.sh
-node --version
+cd /home/ubuntu/app
 npm i
-node index.js &&
+node index.js

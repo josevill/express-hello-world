@@ -6,3 +6,5 @@ files:
 hooks:
   BeforeInstall:
     - location: script/nvm.sh
+  AfterInstall:
+    - location: install.sh

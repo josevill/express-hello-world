@@ -5,4 +5,4 @@ files:
     destination: /home/ubuntu/app
 hooks:
   BeforeInstall:
-    - location: script/install.sh
+    - location: ./install.sh

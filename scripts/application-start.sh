@@ -1,5 +1,6 @@
 #!/bin/bash
 source ~/.nvm/nvm.sh
+nvm use v18.15.0
 cd /home/ubuntu/app
 pm2 delete express
 RESULT=$?

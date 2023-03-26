@@ -10,5 +10,5 @@ else
   echo Failed to delete that joint, going forward. First interaction with the environment.
 fi
 
-pm2 start index.js --name express
+APPNAME=expressdefault PORT=3000 pm2 start index.js --name express
 pm2 save
